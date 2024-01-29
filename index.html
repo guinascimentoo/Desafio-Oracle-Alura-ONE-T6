@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Codificador de texto</title>
+    <link rel="icon" href="assets/icon.png" type="image/x-icon">
+    <link rel="stylesheet" href="css/stylesInterstellar.css">
+</head>
+<body>
+    <header>
+        <h1>
+            <a>
+                <img src="assets/logo.png" alt="Logo" width="400" height="80" id="logo">
+            </a>
+        </h1>
+        <div>
+            <button>
+                <a href='segundapagina/index2.html'>Mudar tema</a>
+            </button>
+        </div>     
+    </header>
+    <main class="main">
+        <section>
+            <textarea class="input-texto" cols="40" rows="9" placeholder="Digite seu texto..."></textarea>
+            <div class="informacao">
+                <ul class="mensagens-erro"></ul>
+            </div>
+            <div class="botoes">
+                <button type="button" class="btn-codificar">Criptografar</button>
+                <button type="button" class="btn-decodificar">Descriptografar</button>
+            </div>
+        </section>
+        <section class="container">
+            <textarea class="resultado" cols="20" rows="11" placeholder=" " readonly></textarea>
+            <button type="button" class="invisivel btn-copiar">Copiar</button>
+        </section>
+    </style>
+    </main>
+    <div class="credito">
+        <p>&#169; Copyright by Guilherme Nascimento - 2024</p>
+    </div>
+    <script src="script/index.js"></script>
+    <audio preload="metadata" controls loop>
+        <source src="media/audio1.mp3" type="audio/mpeg">
+        <source src="media/audio1.ogg" type="audio/ogg">
+    </audio>
+</body>
+</html>
